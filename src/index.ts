@@ -4,7 +4,7 @@ import cors from "cors";
 
 // eslint-disable-next-line @typescript-eslint/no-floating-promises
 (async (): Promise<void> => {
-  const port = 3000;
+  const port = 80;
 
   const app = express.default();
 
